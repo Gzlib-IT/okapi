@@ -60,7 +60,11 @@
         <version>1.5.1</version>  <!-- https://github.com/vert-x3/vertx-hazelcast/blob/master/pom.xml -->
       </dependency>
       <!-- END: versions that depend on the vertx-stack-depchain version -->
-
+      <dependency>
+        <groupId>com.lmax</groupId>
+        <artifactId>disruptor</artifactId>
+        <version>3.3.4</version>
+      </dependency>
       <dependency>
         <groupId>org.apache.logging.log4j</groupId>
         <artifactId>log4j-bom</artifactId>
